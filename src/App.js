@@ -2,7 +2,8 @@ import * as React from 'react';
 import { ColumnDirective, ColumnsDirective, GridComponent, Inject, Page, Sort } from '@syncfusion/ej2-react-grids';
 import { registerLicense } from '@syncfusion/ej2-base';
 
-registerLicense(/* Add Syncfusion license key */);
+/* Add Syncfusion license key or use environment variable below */
+registerLicense(process.env.REACT_APP_SYNCFUSION_LICENSE_KEY);
 
 export default function App() {
 
